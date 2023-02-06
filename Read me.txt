@@ -1,0 +1,19 @@
+The libraries we used are:
+import csv
+import numpy as np
+import math
+import nltk
+nltk.download("stopwords")
+nltk.download("punkt")
+nltk.download("wordnet")
+import re
+from nltk.stem import PorterStemmer
+from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
+from nltk.stem import WordNetLemmatizer
+nltk.download('omw-1.4')
+from flask import Flask, render_template, request
+
+Our documents used are document1 till document10.
+The documents graph used is called documents_graph.txt
+
