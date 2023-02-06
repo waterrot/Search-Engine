@@ -203,6 +203,8 @@ def CalcBooleanPageRankModel(query, page_rank_matrix, matrix):
 
     return ranked_page_score_matrix
 
+
+#function to calculate the TF-IDF matrix
 def CalcTfIdf(query, tf_idf):
     # make a nested list with the item name and all the associated vector lengths
     j = 0
